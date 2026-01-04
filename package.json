@@ -1,0 +1,16 @@
+{
+  "name": "delivery-storage",
+  "version": "1.0.0",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "deploy": "npx hardhat run scripts/deploy.js --network sepolia"
+  },
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "ethers": "^6.15.0"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "hardhat": "^2.25.0"
+  }
+}

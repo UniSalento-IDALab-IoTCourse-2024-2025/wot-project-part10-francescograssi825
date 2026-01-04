@@ -1,0 +1,22 @@
+# Dipendenze Node.js 
+node_modules/
+
+# Build di Hardhat
+artifacts/
+cache/
+
+# File di ambiente con chiavi private 
+.env
+.env.local
+
+# File generati manualmente
+*.bin
+*.abi
+
+# Log di debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Mac OS file spazzatura 
+.DS_Store
